@@ -78,7 +78,7 @@ function App() {
   return (
     <div className='bg-gray-300 h-screen'>
         <div className='bg-white rounded-md'>
-          <h1 className='text-2xl mb-2'>Image Gallery</h1>
+          
           <GridDnd images={images}/>
           {/* <ImageGallery images={images} /> */}
         </div>
