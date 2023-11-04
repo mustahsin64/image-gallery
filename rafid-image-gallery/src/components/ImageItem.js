@@ -1,15 +1,12 @@
 import React from 'react'
 
-function ImageItem({image, index}) {
+
+function ImageItem({image}) {
   return (
-    <div>
-      <img className="object-cover w-48 h-48 rounded-md group relative cursor-pointer border border-gray-300 transition-transform hover:scale-105" 
+      <img className="object-cover w-48 h-48 border border-gray-400 rounded-md group relative cursor-pointer hover:scale-105 transition-transform hover:shadow-lg" 
       src={image.url} alt={image.title}  />
-            <div className="p-3">
-              <h2 className="text-lg font-semibold text-green-400">{image.title}</h2>
-              <p className="text-sm text-gray-500">{image.description}</p>
-            </div>
-    </div>
+        
+    
   )
 }
 
